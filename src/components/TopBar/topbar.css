@@ -1,0 +1,53 @@
+.top{
+    width: 100%;
+    height: 50px;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: sticky;
+    top: 0;
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    z-index: 2;
+}
+.topleft , .topright{
+    flex: 3;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.topcenter{
+    flex: 6;
+}
+
+.topimg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.topicon{
+    font-style: 20px;
+    color: #444;
+    cursor: pointer;
+    margin: 0 0.4em;
+}
+.toplist{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.toplist-item{
+    font-style: 18px;
+    font-weight: 300;
+    cursor: pointer;
+    margin: 0 0.7em;
+}
+.topsearch{
+    font-size: 18px;
+    color: #666;
+    margin-left: 15px;
+    cursor: pointer;
+}
